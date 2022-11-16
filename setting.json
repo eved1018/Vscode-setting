@@ -1,0 +1,38 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#303030",
+        "statusBar.noFolderBackground": "#222225",
+        "statusBar.debuggingBackground": "#511f1f"
+    },
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "120"
+    ],
+    "python.formatting.autopep8Path": "/Users/evan.edelstein/Library/Python/3.10/bin/autopep8",
+    "python.linting.enabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length",
+        "120"
+    ],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "pylint.args": [
+        "--max-line-length=120",
+        "--disable=W1203"
+    ],
+    "editor.fontSize": 14,
+    "editor.wordWrap": "off",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "redhat.telemetry.enabled": false,
+    "debug.onTaskErrors": "debugAnyway",
+    "vsicons.dontShowNewVersionMessage": true,
+    "python.defaultInterpreterPath": "/usr/local/bin/python3.10",
+    "window.zoomLevel": -1,
+}
